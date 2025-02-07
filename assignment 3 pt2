@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-tshirt.png" alt="MyTShirts Logo">
+        </div>
+        <nav>
+            <a href="index.html"><img src="home.png" alt="Home"></a>
+            <a href="cart.html"><img src="shoppingcart-tshirt.png" alt="Cart"></a>
+        </nav>
+    </header>
+
+    <main>
+        <h1>Cart</h1>
+        <div class="framed">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Size</th>
+                    <th>Qty</th>
+                    <th>Price</th>
+                    <th>Discount</th>
+                    <th>Total</th>
+                    <th>Remove</th>
+                </tr>
+                <tr>
+                    <td>Black T-shirt</td>
+                    <td>M</td>
+                    <td>1</td>
+                    <td>200 NOK</td>
+                    <td>-</td>
+                    <td>200 NOK</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+                <tr>
+                    <td>Red T-shirt</td>
+                    <td>L</td>
+                    <td>2</td>
+                    <td>180 NOK</td>
+                    <td>15%</td>
+                    <td>306 NOK</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+                <tr>
+                    <td>White T-shirt</td>
+                    <td>XL</td>
+                    <td>1</td>
+                    <td>220 NOK</td>
+                    <td>-</td>
+                    <td>220 NOK</td>
+                    <td><button class="remove">X</button></td>
+                </tr>
+            </table>
+        </div>
+
+        <h1>Checkout</h1>
+        <div class="framed">
+            <form>
+                <div class="form-group">
+                    <label>First Name:</label>
+                    <input type="text">
+                    <label>Last Name:</label>
+                    <input type="text">
+                    <label>Email:</label>
+                    <input type="email">
+                </div>
+                <div class="form-group">
+                    <label>Street:</label>
+                    <input type="text">
+                    <label>City:</label>
+                    <input type="text">
+                    <label>Postal Code:</label>
+                    <input type="text">
+                </div>
+                <div class="submit">
+                    <input type="checkbox"> I agree to the terms and conditions
+                    <button type="submit">Submit Order</button>
+                </div>
+            </form>
+        </div>
+    </main>
+
+    <footer>
+        <p>Customer Service: <a href="mailto:contact@noreply.com">contact@noreply.com</a> | +47 321 09 87654</p>
+    </footer>
+</body>
+</html>
