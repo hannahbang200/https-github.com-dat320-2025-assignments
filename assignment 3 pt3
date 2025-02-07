@@ -1,0 +1,100 @@
+/* Generelle styling greier */
+body {
+    font-family: sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+/* Headeren */
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: white;
+    height: 40px;
+    position: fixed;
+    width: 100%;
+    padding: 10px;
+}
+
+.logo img {
+    height: 30px;
+    margin-top: 5px;
+}
+
+nav img {
+    width: 30px;
+    margin: 0 10px;
+}
+
+/* Shopping Cart yas */
+aside {
+    width: 300px;
+    float: right;
+    background-color: #ddd;
+    padding: 10px;
+}
+
+/* Banner :3 */
+.banner img {
+    width: 100%;
+    height: 300px;
+    object-fit: cover;
+}
+
+/* Product layouten */
+.products {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+}
+
+.product {
+    display: flex;
+    flex-direction: column;
+    width: 280px;
+    text-align: center;
+    background: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.framed {
+    border: 1px solid #aaa;
+    padding: 5px;
+}
+
+.framed img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+/* få produktene på linje */
+.product p {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+/* Shopping Cart siden */
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+
+/* Footer */
+footer {
+    background: #333;
+    color: white;
+    text-align: center;
+    height: 120px;
+    padding: 20px;
+    position: relative;
+}
