@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyTShirts - Home</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="logo-tshirt.png" alt="MyTShirts Logo">
+        </div>
+        <nav>
+            <a href="index.html"><img src="home.png" alt="Home"></a>
+            <a href="cart.html"><img src="shoppingcart-tshirt.png" alt="Cart"></a>
+        </nav>
+    </header>
+
+    <main>
+        <aside>
+            <h2><a href="cart.html">Cart</a></h2>
+            <table>
+                <tr><th>Product</th><th>Size</th><th>Qty</th></tr>
+                <tr><td>T-shirt Black</td><td>M</td><td>1</td></tr>
+                <tr><td>T-shirt Red</td><td>L</td><td>2</td></tr>
+                <tr><td>T-shirt White</td><td>XL</td><td>1</td></tr>
+            </table>
+        </aside>
+
+        <section class="shop">
+            <div class="banner">
+                <img src="Banner-tshirts.jpg" alt="T-Shirt Sale">
+            </div>
+            
+            <div class="products">
+                <article class="product">
+                    <div class="framed">
+                        <img src="tshirtblack.png" alt="Black T-shirt">
+                    </div>
+                    <h3>Black T-shirt <span class="price">200 NOK</span></h3>
+                    <p>High-quality cotton black t-shirt.</p>
+                </article>
+
+                <article class="product">
+                    <div class="framed">
+                        <img src="tshirtred.png" alt="Red T-shirt">
+                        <span class="discount">15% OFF</span>
+                    </div>
+                    <h3>Red T-shirt <span class="price">180 NOK</span></h3>
+                    <p>Stylish red t-shirt with soft fabric.</p>
+                </article>
+
+                <article class="product">
+                    <div class="framed">
+                        <img src="tshirtwhite.png" alt="White T-shirt">
+                    </div>
+                    <h3>White T-shirt <span class="price">220 NOK</span></h3>
+                    <p>Classic white t-shirt made with premium material.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Customer Service: <a href="mailto:contact@noreply.com">contact@noreply.com</a> | +47 321 09 87654</p>
+    </footer>
+</body>
+</html>
